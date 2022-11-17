@@ -97,7 +97,7 @@ body {
   font-size: 1.5rem;
   font-weight: 400;
   overflow-x: hidden;
-  min-height: 110vh;
+  min-height: 100vh;
   /* max-width: 1440px; */
 }
 
@@ -351,10 +351,10 @@ h2 {
     height: 0;
   }
 
-  .header > svg.logo {
+  /* .header > svg.logo {
     margin-top: 10px;
     margin-left: -10px;
-  }
+  } */
 
   .hamburger {
     display: none;
@@ -375,6 +375,7 @@ h2 {
     gap: 40px;
     align-items: center;
     justify-content: flex-start;
+    width: 431px;
     height: 100%;
     margin: 0;
   }
@@ -461,5 +462,9 @@ h2 {
 
   .featureContent:last-child {
     margin-right: 0;
+  }
+
+  .description {
+    margin-bottom: 0;
   }
 }
