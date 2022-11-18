@@ -134,12 +134,11 @@ a {
   }
 }
 
-.header {
+.navBar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 27px 0 32px 0;
-  /* border: 2px solid red; */
 }
 
 .navBar .hamburger {
@@ -344,11 +343,18 @@ h2 {
   body {
     overflow-x: hidden;
   }
-  .header {
-    margin: 89px 165px 55px 165px;
+  .navBar {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    margin: 89px 165px 55px 165px;
+  }
+
+  .header {
+    /* display: flex;
+    align-items: center; */
     height: 0;
+
+    outline: 2px solid red;
   }
 
   /* .header > svg.logo {
@@ -388,13 +394,16 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    margin: 55px 165px 71px 165px;
+    /* margin: 61px 165px 71px 165px; */
+    margin-inline: 165px;
+    margin-block: 0 7.1rem;
     max-width: 1110px;
     height: auto;
   }
 
   .nav-link {
-    padding: 0;
+    padding-bottom: 0;
+    line-height: 26px;
   }
 
   a:active {
@@ -451,6 +460,7 @@ h2 {
     width: 1110px;
     height: 129px;
     margin-inline: 165px;
+    margin-block: 0 12.9rem;
   }
 
   .featureContent {
