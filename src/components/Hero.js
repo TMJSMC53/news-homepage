@@ -1,7 +1,6 @@
 import gaming from "../images/image-gaming-growth.jpg";
 import retroPCs from "../images/image-retro-pcs.jpg";
 import laptops from "../images/image-top-laptops.jpg";
-// import heroImg_desktop from "../images/image-web-3-desktop.jpg";
 import heroImg from "../images/image-web-3-mobile.jpg";
 const Hero = () => {
   return (
