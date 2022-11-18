@@ -33,7 +33,7 @@ const Navbar = () => {
       </span>
       <div className={`menuBackground ${navbarOpen ? "open" : ""}`}>
         <div className={`menuNav ${navbarOpen ? "showMenu" : ""}`}>
-          <div className="menuContent">
+          <ul className="menuContent">
             <li className="nav-link">
               <a href="/home" onClick={() => closeMenu()}>
                 Home
@@ -51,7 +51,7 @@ const Navbar = () => {
             <li className="nav-link">
               <a href="/categories">Categories</a>
             </li>
-          </div>
+          </ul>
         </div>
       </div>
     </nav>

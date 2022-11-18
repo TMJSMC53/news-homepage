@@ -28,7 +28,7 @@ const Hero = () => {
                 But is it really fulfilling its promise?
               </p>
 
-              <button href="/more">Read More</button>
+              <button>Read More</button>
             </div>
           </div>
         </section>
