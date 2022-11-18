@@ -153,6 +153,7 @@ a {
 .menuBackground {
   background-color: rgba(0, 0, 0, 0);
   position: relative;
+  overflow-x: hidden;
 }
 
 .menuBackground.open {
@@ -161,7 +162,8 @@ a {
   inset: 0 0 0 0;
   background-color: rgba(0, 0, 0, 0.5);
   transition: background-color 300ms ease;
-  overflow: hidden;
+  overflow-x: hidden;
+  transform: translateX(0px);
 }
 
 .menuNav {
@@ -175,6 +177,7 @@ a {
   top: 0;
   right: 0;
   list-style: none;
+  outline: 2px solid red;
 }
 
 .menuNav.showMenu {
